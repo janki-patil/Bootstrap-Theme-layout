@@ -1,0 +1,23 @@
+.aboutUs{
+    height: 400px;
+    width: 400px;
+}
+.testimonials{
+    .owl-theme .owl-nav {
+        position: absolute;
+        top: 20%;
+        left: -6%;
+        width: 112%;
+        display: flex;
+        justify-content: space-between;
+    }
+    p{
+        text-align: justify;
+    }
+}
+
+@media  screen and (max-width:768px) {
+   .testimonials .owl-theme .owl-nav{
+    display: none;
+   }
+}

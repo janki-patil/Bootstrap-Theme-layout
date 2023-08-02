@@ -1,0 +1,18 @@
+
+@import './abstract/var';
+@import './abstract/mixins';
+
+@import './base/base';
+@import './base/utility';
+@import './base/typography';
+@import './base/animations';
+
+@import './component/navbar'; 
+@import './component/slider';
+@import './component/bg-fixed';
+ 
+@import './layout/footer';  
+ 
+@import './pages/home';
+@import './pages/aboutus';
+@import './pages/services';

@@ -1,0 +1,19 @@
+{
+  "name": "bootstraplayout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": " node-sass assets/sass/style.scss assets/css/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "lightbox2": "^2.11.4",
+    "owl.carousel2": "^2.2.2"
+  }
+}

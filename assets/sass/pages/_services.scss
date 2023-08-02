@@ -1,0 +1,27 @@
+.plancard {
+    &-title {
+        position: relative;
+        top: -10px;
+        left: 10px;
+    }
+}
+
+.faq {
+    .card {
+        background-color: transparent;
+        &-header{
+            .btn-link{
+                color: $color-white;
+            }
+        }
+    }
+}
+.blogs{
+    .card{
+        >img{
+            height: 350px;
+            width: 560px;
+            object-fit: cover;
+        }
+    }
+}
